@@ -1,0 +1,20 @@
+# Ambiente Virtual (O que você pediu)
+.venv/
+venv/
+env/
+
+# Lixo do Python (Essencial ignorar isso também)
+__pycache__/
+*.py[cod]
+
+# Arquivos de Sistema do VS Code (Opcional, mas recomendado)
+.vscode/
+
+# --- RECOMENDAÇÃO DE SEGURANÇA E ESPAÇO ---
+# Eu sugiro fortemente ignorar os arquivos de DADOS gerados e BACKUPS.
+# O GitHub deve guardar o CÓDIGO, não os dados (que mudam todo dia).
+# Se quiser enviar os dados mesmo assim, apague as linhas abaixo:
+Resultado_BCB.xlsx
+Resultado_BCB_BACKUP.xlsx
+*_BACKUP.xlsx
+execucao.log
