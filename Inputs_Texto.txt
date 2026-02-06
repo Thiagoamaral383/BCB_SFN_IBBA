@@ -1,253 +1,252 @@
-Codigo;Coluna;Aba
-433;B;IPCA_Macro
-;C;IPCA_Macro
-4189;D;IPCA_Macro
-4392;E;IPCA_Macro
-24440;C;Concessões_AjustSazonal
-24443;D;Concessões_AjustSazonal
-28169;E;Concessões_AjustSazonal
-24441;G;Concessões_AjustSazonal
-24444;H;Concessões_AjustSazonal
-28170;I;Concessões_AjustSazonal
-28171;J;Concessões_AjustSazonal
-24447;K;Concessões_AjustSazonal
-;A;Concessões
-20631;B;Concessões
-20635;C;Concessões
-20636;D;Concessões
-20642;E;Concessões
-20643;F;Concessões
-20647;G;Concessões
-20657;H;Concessões
-20659;I;Concessões
-20662;J;Concessões
-20665;K;Concessões
-20666;L;Concessões
-20671;M;Concessões
-20669;N;Concessões
-20670;O;Concessões
-20673;P;Concessões
-20679;Q;Concessões
-20680;R;Concessões
-20682;S;Concessões
-20686;T;Concessões
-20689;U;Concessões
-20692;V;Concessões
-20696;W;Concessões
-20697;X;Concessões
-20698;Y;Concessões
-20701;Z;Concessões
-20704;AA;Concessões
-20708;AB;Concessões
-20712;AC;Concessões
-20713;AD;Concessões
-20852;B;Prazo_Médio_NovasOps
-20856;C;Prazo_Médio_NovasOps
-20857;D;Prazo_Médio_NovasOps
-20863;E;Prazo_Médio_NovasOps
-20866;F;Prazo_Médio_NovasOps
-20873;G;Prazo_Médio_NovasOps
-20875;H;Prazo_Médio_NovasOps
-20878;I;Prazo_Médio_NovasOps
-20879;J;Prazo_Médio_NovasOps
-20884;K;Prazo_Médio_NovasOps
-20882;L;Prazo_Médio_NovasOps
-20883;M;Prazo_Médio_NovasOps
-20886;N;Prazo_Médio_NovasOps
-20892;O;Prazo_Médio_NovasOps
-20896;P;Prazo_Médio_NovasOps
-20899;Q;Prazo_Médio_NovasOps
-20902;R;Prazo_Médio_NovasOps
-20906;S;Prazo_Médio_NovasOps
-20908;T;Prazo_Médio_NovasOps
-20911;U;Prazo_Médio_NovasOps
-20914;V;Prazo_Médio_NovasOps
-20918;W;Prazo_Médio_NovasOps
-20922;X;Prazo_Médio_NovasOps
-20542;C;Crédito Ampliado
-;D;Crédito Ampliado
-20540;E;Crédito Ampliado
-20541;F;Crédito Ampliado
-;G;Crédito Ampliado
-28183;H;Crédito Ampliado
-28184;I;Crédito Ampliado
-28185;J;Crédito Ampliado
-28186;K;Crédito Ampliado
-28187;L;Crédito Ampliado
-28188;M;Crédito Ampliado
-28189;N;Crédito Ampliado
-28190;O;Crédito Ampliado
-28191;P;Crédito Ampliado
-28192;Q;Crédito Ampliado
-28193;R;Crédito Ampliado
-28194;S;Crédito Ampliado
-28195;T;Crédito Ampliado
-;U;Crédito Ampliado
-;V;Crédito Ampliado
-;X;Crédito Ampliado
-4382;Y;Crédito Ampliado
-20543;C;Crédito_Livre_Direcionado
-20544;D;Crédito_Livre_Direcionado
-20550;E;Crédito_Livre_Direcionado
-20551;F;Crédito_Livre_Direcionado
-20555;G;Crédito_Livre_Direcionado
-20565;H;Crédito_Livre_Direcionado
-20567;I;Crédito_Livre_Direcionado
-;J;Crédito_Livre_Direcionado
-20570;K;Crédito_Livre_Direcionado
-20573;L;Crédito_Livre_Direcionado
-20574;M;Crédito_Livre_Direcionado
-20579;N;Crédito_Livre_Direcionado
-20577;O;Crédito_Livre_Direcionado
-20578;P;Crédito_Livre_Direcionado
-20581;Q;Crédito_Livre_Direcionado
-20587;R;Crédito_Livre_Direcionado
-20588;S;Crédito_Livre_Direcionado
-20589;T;Crédito_Livre_Direcionado
-20590;U;Crédito_Livre_Direcionado
-;V;Crédito_Livre_Direcionado
-20594;W;Crédito_Livre_Direcionado
-20597;X;Crédito_Livre_Direcionado
-20600;Y;Crédito_Livre_Direcionado
-20604;Z;Crédito_Livre_Direcionado
-20605;AA;Crédito_Livre_Direcionado
-20606;AB;Crédito_Livre_Direcionado
-20609;AC;Crédito_Livre_Direcionado
-20612;AD;Crédito_Livre_Direcionado
-20616;AE;Crédito_Livre_Direcionado
-20620;AF;Crédito_Livre_Direcionado
-20621;AG;Crédito_Livre_Direcionado
-2007;B;Cred_Controle_Capital
-12106;C;Cred_Controle_Capital
-12150;D;Cred_Controle_Capital
-27701;B;Credito_PJ_Porte
-27702;C;Credito_PJ_Porte
-20718;B;Taxas Juros
-20719;C;Taxas Juros
-20725;D;Taxas Juros
-20726;E;Taxas Juros
-20740;F;Taxas Juros
-20741;G;Taxas Juros
-20742;H;Taxas Juros
-20747;I;Taxas Juros
-20745;J;Taxas Juros
-20746;K;Taxas Juros
-20749;L;Taxas Juros
-22022;M;Taxas Juros
-22023;N;Taxas Juros
-22024;O;Taxas Juros
-20756;P;Taxas Juros
-20757;Q;Taxas Juros
-20768;R;Taxas Juros
-20774;S;Taxas Juros
-20783;B;Inadimplência_Prov
-20784;C;Inadimplência_Prov
-20785;D;Inadimplência_Prov
-20786;E;Inadimplência_Prov
-20787;F;Inadimplência_Prov
-20809;G;Inadimplência_Prov
-;H;Inadimplência_Prov
-21003;I;Inadimplência_Prov
-21004;J;Inadimplência_Prov
-21005;K;Inadimplência_Prov
-21006;L;Inadimplência_Prov
-21007;M;Inadimplência_Prov
-21008;N;Inadimplência_Prov
-21014;O;Inadimplência_Prov
-21015;P;Inadimplência_Prov
-21033;Q;Inadimplência_Prov
-21034;R;Inadimplência_Prov
-21035;S;Inadimplência_Prov
-21040;T;Inadimplência_Prov
-21038;U;Inadimplência_Prov
-21039;V;Inadimplência_Prov
-21042;W;Inadimplência_Prov
-21048;X;Inadimplência_Prov
-21049;Y;Inadimplência_Prov
-21050;Z;Inadimplência_Prov
-21053;AA;Inadimplência_Prov
-21054;AB;Inadimplência_Prov
-21066;AC;Inadimplência_Prov
-21072;AD;Inadimplência_Prov
-;AE;Inadimplência_Prov
-21082;AF;Inadimplência_Prov
-13667;AG;Inadimplência_Prov
-13673;AH;Inadimplência_Prov
-13679;AI;Inadimplência_Prov
-21083;AJ;Inadimplência_Prov
-21084;AK;Inadimplência_Prov
-21085;AL;Inadimplência_Prov
-21086;AM;Inadimplência_Prov
-21087;AN;Inadimplência_Prov
-21093;AO;Inadimplência_Prov
-21094;AP;Inadimplência_Prov
-21112;AQ;Inadimplência_Prov
-21113;AR;Inadimplência_Prov
-21114;AS;Inadimplência_Prov
-21119;AT;Inadimplência_Prov
-21117;AU;Inadimplência_Prov
-21118;AV;Inadimplência_Prov
-21121;AW;Inadimplência_Prov
-21127;AX;Inadimplência_Prov
-21128;AY;Inadimplência_Prov
-21129;AZ;Inadimplência_Prov
-21132;BA;Inadimplência_Prov
-21133;BB;Inadimplência_Prov
-21145;BC;Inadimplência_Prov
-21151;BD;Inadimplência_Prov
-;BE;Inadimplência_Prov
-13645;BF;Inadimplência_Prov
-13666;BG;Inadimplência_Prov
-13672;BH;Inadimplência_Prov
-13678;BI;Inadimplência_Prov
-21083;B;Inadimplência Porte
-27703;C;Inadimplência Porte
-27704;D;Inadimplência Porte
-;E;Inadimplência Porte
-27705;F;Inadimplência Porte
-27706;G;Inadimplência Porte
-27707;H;Inadimplência Porte
-29036;B;EndivFamilias
-29033;C;EndivFamilias
-;D;EndivFamilias
-29035;E;EndivFamilias
-;F;EndivFamilias
-29037;G;EndivFamilias
-20400;H;EndivFamilias
-;I;EndivFamilias
-;J;EndivFamilias
-;K;EndivFamilias
-;L;EndivFamilias
-;M;EndivFamilias
-24369;N;EndivFamilias
-21380;B;PesquisaTrimestalCrédito
-21381;C;PesquisaTrimestalCrédito
-;D;PesquisaTrimestalCrédito
-21382;E;PesquisaTrimestalCrédito
-21383;F;PesquisaTrimestalCrédito
-;G;PesquisaTrimestalCrédito
-21384;H;PesquisaTrimestalCrédito
-21385;I;PesquisaTrimestalCrédito
-;J;PesquisaTrimestalCrédito
-21386;K;PesquisaTrimestalCrédito
-21387;L;PesquisaTrimestalCrédito
-;M;PesquisaTrimestalCrédito
-21388;N;PesquisaTrimestalCrédito
-21389;O;PesquisaTrimestalCrédito
-21390;P;PesquisaTrimestalCrédito
-21391;Q;PesquisaTrimestalCrédito
-21392;R;PesquisaTrimestalCrédito
-21393;S;PesquisaTrimestalCrédito
-21394;T;PesquisaTrimestalCrédito
-21395;U;PesquisaTrimestalCrédito
-21396;V;PesquisaTrimestalCrédito
-21397;W;PesquisaTrimestalCrédito
-;X;PesquisaTrimestalCrédito
-21398;Y;PesquisaTrimestalCrédito
-21399;Z;PesquisaTrimestalCrédito
-;AA;PesquisaTrimestalCrédito
-21400;AB;PesquisaTrimestalCrédito
-21401;AC;PesquisaTrimestalCrédito
-;AD;PesquisaTrimestalCrédito
-21402;AE;PesquisaTrimestalCrédito
-21403;AF;PesquisaTrimestalCrédito
+433,B,IPCA_Macro
+,C,IPCA_Macro
+4189,D,IPCA_Macro
+4392,E,IPCA_Macro
+24440,C,Concessões_AjustSazonal
+24443,D,Concessões_AjustSazonal
+28169,E,Concessões_AjustSazonal
+24446,F,Concessões_AjustSazonal
+24441,G,Concessões_AjustSazonal
+24444,H,Concessões_AjustSazonal
+28170,I,Concessões_AjustSazonal
+28171,J,Concessões_AjustSazonal
+24447,K,Concessões_AjustSazonal
+20631,B,Concessões
+20635,C,Concessões
+20636,D,Concessões
+20642,E,Concessões
+20643,F,Concessões
+20647,G,Concessões
+20657,H,Concessões
+20659,I,Concessões
+20662,J,Concessões
+20665,K,Concessões
+20666,L,Concessões
+20671,M,Concessões
+20669,N,Concessões
+20670,O,Concessões
+20673,P,Concessões
+20679,Q,Concessões
+20680,R,Concessões
+20682,S,Concessões
+20686,T,Concessões
+20689,U,Concessões
+20692,V,Concessões
+20696,W,Concessões
+20697,X,Concessões
+20698,Y,Concessões
+20701,Z,Concessões
+20704,AA,Concessões
+20708,AB,Concessões
+20712,AC,Concessões
+20713,AD,Concessões
+20852,B,Prazo_Médio_NovasOps
+20856,C,Prazo_Médio_NovasOps
+20857,D,Prazo_Médio_NovasOps
+20863,E,Prazo_Médio_NovasOps
+20866,F,Prazo_Médio_NovasOps
+20873,G,Prazo_Médio_NovasOps
+20875,H,Prazo_Médio_NovasOps
+20878,I,Prazo_Médio_NovasOps
+20879,J,Prazo_Médio_NovasOps
+20884,K,Prazo_Médio_NovasOps
+20882,L,Prazo_Médio_NovasOps
+20883,M,Prazo_Médio_NovasOps
+20886,N,Prazo_Médio_NovasOps
+20892,O,Prazo_Médio_NovasOps
+20896,P,Prazo_Médio_NovasOps
+20899,Q,Prazo_Médio_NovasOps
+20902,R,Prazo_Médio_NovasOps
+20906,S,Prazo_Médio_NovasOps
+20908,T,Prazo_Médio_NovasOps
+20911,U,Prazo_Médio_NovasOps
+20914,V,Prazo_Médio_NovasOps
+20918,W,Prazo_Médio_NovasOps
+20922,X,Prazo_Médio_NovasOps
+20542,C,Crédito Ampliado
+20593,D,Crédito Ampliado
+20540,E,Crédito Ampliado
+20541,F,Crédito Ampliado
+,G,Crédito Ampliado
+28183,H,Crédito Ampliado
+28184,I,Crédito Ampliado
+28185,J,Crédito Ampliado
+28186,K,Crédito Ampliado
+28187,L,Crédito Ampliado
+28188,M,Crédito Ampliado
+28189,N,Crédito Ampliado
+28190,O,Crédito Ampliado
+28191,P,Crédito Ampliado
+28192,Q,Crédito Ampliado
+28193,R,Crédito Ampliado
+28194,S,Crédito Ampliado
+28195,T,Crédito Ampliado
+,U,Crédito Ampliado
+,V,Crédito Ampliado
+,W,Crédito Ampliado
+4382,X,Crédito Ampliado
+20543,C,Crédito_Livre_Direcionado
+20544,D,Crédito_Livre_Direcionado
+20550,E,Crédito_Livre_Direcionado
+20551,F,Crédito_Livre_Direcionado
+20555,G,Crédito_Livre_Direcionado
+20565,H,Crédito_Livre_Direcionado
+20567,I,Crédito_Livre_Direcionado
+,J,Crédito_Livre_Direcionado
+20570,K,Crédito_Livre_Direcionado
+20573,L,Crédito_Livre_Direcionado
+20574,M,Crédito_Livre_Direcionado
+20579,N,Crédito_Livre_Direcionado
+20577,O,Crédito_Livre_Direcionado
+20578,P,Crédito_Livre_Direcionado
+20581,Q,Crédito_Livre_Direcionado
+20587,R,Crédito_Livre_Direcionado
+20588,S,Crédito_Livre_Direcionado
+20589,T,Crédito_Livre_Direcionado
+20590,U,Crédito_Livre_Direcionado
+,V,Crédito_Livre_Direcionado
+20594,W,Crédito_Livre_Direcionado
+20597,X,Crédito_Livre_Direcionado
+20600,Y,Crédito_Livre_Direcionado
+20604,Z,Crédito_Livre_Direcionado
+20605,AA,Crédito_Livre_Direcionado
+20606,AB,Crédito_Livre_Direcionado
+20609,AC,Crédito_Livre_Direcionado
+20612,AD,Crédito_Livre_Direcionado
+20616,AE,Crédito_Livre_Direcionado
+20620,AF,Crédito_Livre_Direcionado
+20621,AG,Crédito_Livre_Direcionado
+2007,B,Cred_Controle_Capital
+12106,C,Cred_Controle_Capital
+12150,D,Cred_Controle_Capital
+27701,B,Credito_PJ_Porte
+27702,C,Credito_PJ_Porte
+20718,B,Taxas Juros
+20719,C,Taxas Juros
+20725,D,Taxas Juros
+20726,E,Taxas Juros
+20740,F,Taxas Juros
+20741,G,Taxas Juros
+20742,H,Taxas Juros
+20747,I,Taxas Juros
+20745,J,Taxas Juros
+20746,K,Taxas Juros
+20749,L,Taxas Juros
+22022,M,Taxas Juros
+22023,N,Taxas Juros
+22024,O,Taxas Juros
+20756,P,Taxas Juros
+20757,Q,Taxas Juros
+20768,R,Taxas Juros
+20774,S,Taxas Juros
+20783,B,Inadimplência_Prov
+20784,C,Inadimplência_Prov
+20785,D,Inadimplência_Prov
+20786,E,Inadimplência_Prov
+20787,F,Inadimplência_Prov
+20809,G,Inadimplência_Prov
+,H,Inadimplência_Prov
+21003,I,Inadimplência_Prov
+21004,J,Inadimplência_Prov
+21005,K,Inadimplência_Prov
+21006,L,Inadimplência_Prov
+21007,M,Inadimplência_Prov
+21008,N,Inadimplência_Prov
+21014,O,Inadimplência_Prov
+21015,P,Inadimplência_Prov
+21033,Q,Inadimplência_Prov
+21034,R,Inadimplência_Prov
+21035,S,Inadimplência_Prov
+21040,T,Inadimplência_Prov
+21038,U,Inadimplência_Prov
+21039,V,Inadimplência_Prov
+21042,W,Inadimplência_Prov
+21048,X,Inadimplência_Prov
+21049,Y,Inadimplência_Prov
+21050,Z,Inadimplência_Prov
+21053,AA,Inadimplência_Prov
+21054,AB,Inadimplência_Prov
+21066,AC,Inadimplência_Prov
+21072,AD,Inadimplência_Prov
+,AE,Inadimplência_Prov
+21082,AF,Inadimplência_Prov
+13667,AG,Inadimplência_Prov
+13673,AH,Inadimplência_Prov
+13679,AI,Inadimplência_Prov
+21083,AJ,Inadimplência_Prov
+21084,AK,Inadimplência_Prov
+21085,AL,Inadimplência_Prov
+21086,AM,Inadimplência_Prov
+21087,AN,Inadimplência_Prov
+21093,AO,Inadimplência_Prov
+21094,AP,Inadimplência_Prov
+21112,AQ,Inadimplência_Prov
+21113,AR,Inadimplência_Prov
+21114,AS,Inadimplência_Prov
+21119,AT,Inadimplência_Prov
+21117,AU,Inadimplência_Prov
+21118,AV,Inadimplência_Prov
+21121,AW,Inadimplência_Prov
+21127,AX,Inadimplência_Prov
+21128,AY,Inadimplência_Prov
+21129,AZ,Inadimplência_Prov
+21132,BA,Inadimplência_Prov
+21133,BB,Inadimplência_Prov
+21145,BC,Inadimplência_Prov
+21151,BD,Inadimplência_Prov
+,BE,Inadimplência_Prov
+13645,BF,Inadimplência_Prov
+13666,BG,Inadimplência_Prov
+13672,BH,Inadimplência_Prov
+13678,BI,Inadimplência_Prov
+21083,B,Inadimplência Porte
+27703,C,Inadimplência Porte
+27704,D,Inadimplência Porte
+,E,Inadimplência Porte
+27705,F,Inadimplência Porte
+27706,G,Inadimplência Porte
+27707,H,Inadimplência Porte
+29036,B,EndivFamilias
+29033,C,EndivFamilias
+,D,EndivFamilias
+29035,E,EndivFamilias
+,F,EndivFamilias
+29037,G,EndivFamilias
+20400,H,EndivFamilias
+,I,EndivFamilias
+,J,EndivFamilias
+,K,EndivFamilias
+,L,EndivFamilias
+,M,EndivFamilias
+24369,N,EndivFamilias
+21380,B,PesquisaTrimestalCrédito
+21381,C,PesquisaTrimestalCrédito
+,D,PesquisaTrimestalCrédito
+21382,E,PesquisaTrimestalCrédito
+21383,F,PesquisaTrimestalCrédito
+,G,PesquisaTrimestalCrédito
+21384,H,PesquisaTrimestalCrédito
+21385,I,PesquisaTrimestalCrédito
+,J,PesquisaTrimestalCrédito
+21386,K,PesquisaTrimestalCrédito
+21387,L,PesquisaTrimestalCrédito
+,M,PesquisaTrimestalCrédito
+21388,N,PesquisaTrimestalCrédito
+21389,O,PesquisaTrimestalCrédito
+21390,P,PesquisaTrimestalCrédito
+21391,Q,PesquisaTrimestalCrédito
+21392,R,PesquisaTrimestalCrédito
+21393,S,PesquisaTrimestalCrédito
+21394,T,PesquisaTrimestalCrédito
+21395,U,PesquisaTrimestalCrédito
+21396,V,PesquisaTrimestalCrédito
+21397,W,PesquisaTrimestalCrédito
+,X,PesquisaTrimestalCrédito
+21398,Y,PesquisaTrimestalCrédito
+21399,Z,PesquisaTrimestalCrédito
+,AA,PesquisaTrimestalCrédito
+21400,AB,PesquisaTrimestalCrédito
+21401,AC,PesquisaTrimestalCrédito
+,AD,PesquisaTrimestalCrédito
+21402,AE,PesquisaTrimestalCrédito
+21403,AF,PesquisaTrimestalCrédito
