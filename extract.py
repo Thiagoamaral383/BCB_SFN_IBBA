@@ -216,6 +216,12 @@ def main():
                 if cod_orig in df_global_data.columns:
                     df_sheet[col_dest] = df_global_data[cod_orig]
             
+            # Post-processing: Rename headers (Letter -> Series Code)
+            # We map the series code to the column, keeping unmapped columns (gaps) as letters or empty if desired.
+            # User request: "Header equals Series Code"
+            rename_map = dict(zip(df_config['Coluna'], df_config['Codigo_Clean']))
+            df_sheet.rename(columns=rename_map, inplace=True)
+            
             output_dfs[sheet] = df_sheet
 
         # 5. Final File Export
