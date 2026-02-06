@@ -35,9 +35,50 @@ def generate_column_range(max_col_str: str) -> List[str]:
     except Exception:
         return []
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+MAX_WORKERS = 5  # Adjust based on system/network limits
+
+def process_batch_chunk(chunk: List[int], start_date: str) -> List[pd.DataFrame]:
+    """
+    Helper function to process a single batch of series codes.
+    """
+    chunk_results = []
+    try:
+        # Batch download attempt (Performance Optimization)
+        # Note: Printing in threads might interleave, but acceptable for simple logs
+        print(f"  > Processing batch (series {chunk[0]}...)...")
+        df_chunk = sgs.get(chunk, start=start_date)
+        chunk_results.append(df_chunk)
+        
+    except Exception as e:
+        print(f"  ! FAILURE in batch ({chunk[0]}...). Starting individual recovery mode...")
+        # Fallback: Process individually
+        for code in chunk:
+            try:
+                # Attempt 1: Strict download with start date
+                ts = sgs.get(code, start=start_date)
+                ts.name = code
+                chunk_results.append(ts)
+            except Exception:
+                try:
+                    # Attempt 2: Full history download and local filtering
+                    # Useful for series starting AFTER start_date
+                    ts = sgs.get(code)
+                    if not ts.empty:
+                        ts = ts[ts.index >= start_date]
+                        if not ts.empty:
+                            ts.name = code
+                            chunk_results.append(ts)
+                        else:
+                            print(f"    - Series {code}: Data retrieved but none within period.")
+                except:
+                    print(f"    - Series {code} failed permanently.")
+    return chunk_results
+
 def download_series_batch(series_codes: List[int], start_date: str) -> pd.DataFrame:
     """
-    Downloads BCB series in batches with fallback to individual handling on failure.
+    Downloads BCB series in parallel batches with fallback to individual handling on failure.
     
     Args:
         series_codes: List of series codes (integers).
@@ -47,50 +88,27 @@ def download_series_batch(series_codes: List[int], start_date: str) -> pd.DataFr
         DataFrame containing the consolidated data.
     """
     results: List[pd.DataFrame] = []
-    total = len(series_codes)
     
     # Remove duplicates and ensure integer typing
     series_codes = sorted(list(set(series_codes)))
+    total = len(series_codes)
     
-    print(f"Starting download of {total} series in batches of {BATCH_SIZE}...")
+    print(f"Starting parallel download of {total} series with {MAX_WORKERS} workers...")
 
-    for i in range(0, total, BATCH_SIZE):
-        # Define current chunk
-        chunk = series_codes[i : i + BATCH_SIZE]
+    # Create chunks
+    chunks = [series_codes[i : i + BATCH_SIZE] for i in range(0, total, BATCH_SIZE)]
+    
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        # Submit all tasks
+        future_to_chunk = {executor.submit(process_batch_chunk, chunk, start_date): chunk for chunk in chunks}
         
-        try:
-            # Batch download attempt (Performance Optimization)
-            print(f"  > Processing batch {i//BATCH_SIZE + 1} (series {chunk[0]}...)...", end=" ")
-            df_chunk = sgs.get(chunk, start=start_date)
-            results.append(df_chunk)
-            print("OK")
-            
-        except Exception as e:
-            print(f"FAILURE ({e}). Starting individual recovery mode for this batch...")
-            # Fallback: Process individually
-            for code in chunk:
-                try:
-                    # Attempt 1: Strict download with start date
-                    ts = sgs.get(code, start=start_date)
-                    ts.name = code
-                    results.append(ts)
-                except Exception:
-                    try:
-                        # Attempt 2: Full history download and local filtering
-                        # Useful for series starting AFTER start_date
-                        ts = sgs.get(code)
-                        if not ts.empty:
-                            ts = ts[ts.index >= start_date]
-                            if not ts.empty:
-                                ts.name = code
-                                results.append(ts)
-                            else:
-                                print(f"Series {code}: Data retrieved but none within period.")
-                    except:
-                        print(f"Series {code} failed permanently.")
-        
-        # Brief interval to avoid API rate limiting
-        time.sleep(0.1)
+        # Process results as they complete
+        for future in as_completed(future_to_chunk):
+            try:
+                chunk_data = future.result()
+                results.extend(chunk_data)
+            except Exception as e:
+                print(f"CRITICAL WORKER ERROR: {e}")
 
     # Data Consolidation
     if results:
