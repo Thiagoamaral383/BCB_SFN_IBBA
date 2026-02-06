@@ -1,3 +1,4 @@
+Codigo,Coluna,Aba
 433,B,IPCA_Macro
 ,C,IPCA_Macro
 4189,D,IPCA_Macro
@@ -50,19 +51,20 @@
 20878,I,Prazo_Médio_NovasOps
 20879,J,Prazo_Médio_NovasOps
 20884,K,Prazo_Médio_NovasOps
-20882,L,Prazo_Médio_NovasOps
-20883,M,Prazo_Médio_NovasOps
-20886,N,Prazo_Médio_NovasOps
-20892,O,Prazo_Médio_NovasOps
-20896,P,Prazo_Médio_NovasOps
-20899,Q,Prazo_Médio_NovasOps
-20902,R,Prazo_Médio_NovasOps
-20906,S,Prazo_Médio_NovasOps
-20908,T,Prazo_Médio_NovasOps
-20911,U,Prazo_Médio_NovasOps
-20914,V,Prazo_Médio_NovasOps
-20918,W,Prazo_Médio_NovasOps
-20922,X,Prazo_Médio_NovasOps
+20881,L,Prazo_Médio_NovasOps
+20882,M,Prazo_Médio_NovasOps
+20883,N,Prazo_Médio_NovasOps
+20886,O,Prazo_Médio_NovasOps
+20892,P,Prazo_Médio_NovasOps
+20896,Q,Prazo_Médio_NovasOps
+20899,R,Prazo_Médio_NovasOps
+20902,S,Prazo_Médio_NovasOps
+20906,T,Prazo_Médio_NovasOps
+20908,U,Prazo_Médio_NovasOps
+20911,V,Prazo_Médio_NovasOps
+20914,W,Prazo_Médio_NovasOps
+20918,X,Prazo_Médio_NovasOps
+20922,Y,Prazo_Médio_NovasOps
 20542,C,Crédito Ampliado
 20593,D,Crédito Ampliado
 20540,E,Crédito Ampliado
@@ -97,25 +99,26 @@
 20573,L,Crédito_Livre_Direcionado
 20574,M,Crédito_Livre_Direcionado
 20579,N,Crédito_Livre_Direcionado
-20577,O,Crédito_Livre_Direcionado
-20578,P,Crédito_Livre_Direcionado
-20581,Q,Crédito_Livre_Direcionado
-20587,R,Crédito_Livre_Direcionado
-20588,S,Crédito_Livre_Direcionado
-20589,T,Crédito_Livre_Direcionado
-20590,U,Crédito_Livre_Direcionado
-,V,Crédito_Livre_Direcionado
-20594,W,Crédito_Livre_Direcionado
-20597,X,Crédito_Livre_Direcionado
-20600,Y,Crédito_Livre_Direcionado
-20604,Z,Crédito_Livre_Direcionado
-20605,AA,Crédito_Livre_Direcionado
-20606,AB,Crédito_Livre_Direcionado
-20609,AC,Crédito_Livre_Direcionado
-20612,AD,Crédito_Livre_Direcionado
-20616,AE,Crédito_Livre_Direcionado
-20620,AF,Crédito_Livre_Direcionado
-20621,AG,Crédito_Livre_Direcionado
+20576,O,Crédito_Livre_Direcionado
+20577,P,Crédito_Livre_Direcionado
+20578,Q,Crédito_Livre_Direcionado
+20581,R,Crédito_Livre_Direcionado
+20587,S,Crédito_Livre_Direcionado
+20588,T,Crédito_Livre_Direcionado
+20589,U,Crédito_Livre_Direcionado
+20590,V,Crédito_Livre_Direcionado
+,W,Crédito_Livre_Direcionado
+20594,X,Crédito_Livre_Direcionado
+20597,Y,Crédito_Livre_Direcionado
+20600,Z,Crédito_Livre_Direcionado
+20604,AA,Crédito_Livre_Direcionado
+20605,AB,Crédito_Livre_Direcionado
+20606,AC,Crédito_Livre_Direcionado
+20609,AD,Crédito_Livre_Direcionado
+20612,AE,Crédito_Livre_Direcionado
+20616,AF,Crédito_Livre_Direcionado
+20620,AG,Crédito_Livre_Direcionado
+20621,AH,Crédito_Livre_Direcionado
 2007,B,Cred_Controle_Capital
 12106,C,Cred_Controle_Capital
 12150,D,Cred_Controle_Capital
@@ -129,16 +132,17 @@
 20741,G,Taxas Juros
 20742,H,Taxas Juros
 20747,I,Taxas Juros
-20745,J,Taxas Juros
-20746,K,Taxas Juros
-20749,L,Taxas Juros
-22022,M,Taxas Juros
-22023,N,Taxas Juros
-22024,O,Taxas Juros
-20756,P,Taxas Juros
-20757,Q,Taxas Juros
-20768,R,Taxas Juros
-20774,S,Taxas Juros
+20744,J,Taxas Juros
+20745,K,Taxas Juros
+20746,L,Taxas Juros
+20749,M,Taxas Juros
+22022,N,Taxas Juros
+22023,O,Taxas Juros
+22024,P,Taxas Juros
+20756,Q,Taxas Juros
+20757,R,Taxas Juros
+20768,S,Taxas Juros
+20774,T,Taxas Juros
 20783,B,Inadimplência_Prov
 20784,C,Inadimplência_Prov
 20785,D,Inadimplência_Prov
@@ -158,47 +162,49 @@
 21034,R,Inadimplência_Prov
 21035,S,Inadimplência_Prov
 21040,T,Inadimplência_Prov
-21038,U,Inadimplência_Prov
-21039,V,Inadimplência_Prov
-21042,W,Inadimplência_Prov
-21048,X,Inadimplência_Prov
-21049,Y,Inadimplência_Prov
-21050,Z,Inadimplência_Prov
-21053,AA,Inadimplência_Prov
-21054,AB,Inadimplência_Prov
-21066,AC,Inadimplência_Prov
-21072,AD,Inadimplência_Prov
-,AE,Inadimplência_Prov
-21082,AF,Inadimplência_Prov
-13667,AG,Inadimplência_Prov
-13673,AH,Inadimplência_Prov
-13679,AI,Inadimplência_Prov
-21083,AJ,Inadimplência_Prov
-21084,AK,Inadimplência_Prov
-21085,AL,Inadimplência_Prov
-21086,AM,Inadimplência_Prov
-21087,AN,Inadimplência_Prov
-21093,AO,Inadimplência_Prov
-21094,AP,Inadimplência_Prov
-21112,AQ,Inadimplência_Prov
-21113,AR,Inadimplência_Prov
-21114,AS,Inadimplência_Prov
-21119,AT,Inadimplência_Prov
-21117,AU,Inadimplência_Prov
-21118,AV,Inadimplência_Prov
-21121,AW,Inadimplência_Prov
-21127,AX,Inadimplência_Prov
-21128,AY,Inadimplência_Prov
-21129,AZ,Inadimplência_Prov
-21132,BA,Inadimplência_Prov
-21133,BB,Inadimplência_Prov
-21145,BC,Inadimplência_Prov
-21151,BD,Inadimplência_Prov
-,BE,Inadimplência_Prov
-13645,BF,Inadimplência_Prov
-13666,BG,Inadimplência_Prov
-13672,BH,Inadimplência_Prov
-13678,BI,Inadimplência_Prov
+21037,U,Inadimplência_Prov
+21038,V,Inadimplência_Prov
+21039,W,Inadimplência_Prov
+21042,X,Inadimplência_Prov
+21048,Y,Inadimplência_Prov
+21049,Z,Inadimplência_Prov
+21050,AA,Inadimplência_Prov
+21053,AB,Inadimplência_Prov
+21054,AC,Inadimplência_Prov
+21066,AD,Inadimplência_Prov
+21072,AE,Inadimplência_Prov
+,AF,Inadimplência_Prov
+21082,AG,Inadimplência_Prov
+13667,AH,Inadimplência_Prov
+13673,AI,Inadimplência_Prov
+13679,AJ,Inadimplência_Prov
+21083,AK,Inadimplência_Prov
+21084,AL,Inadimplência_Prov
+21085,AM,Inadimplência_Prov
+21086,AN,Inadimplência_Prov
+21087,AO,Inadimplência_Prov
+21093,AP,Inadimplência_Prov
+21094,AQ,Inadimplência_Prov
+21112,AR,Inadimplência_Prov
+21113,AS,Inadimplência_Prov
+21114,AT,Inadimplência_Prov
+21119,AU,Inadimplência_Prov
+21116,AV,Inadimplência_Prov
+21117,AW,Inadimplência_Prov
+21118,AX,Inadimplência_Prov
+21121,AY,Inadimplência_Prov
+21127,AZ,Inadimplência_Prov
+21128,BA,Inadimplência_Prov
+21129,BB,Inadimplência_Prov
+21132,BC,Inadimplência_Prov
+21133,BD,Inadimplência_Prov
+21145,BE,Inadimplência_Prov
+21151,BF,Inadimplência_Prov
+,BG,Inadimplência_Prov
+13645,BH,Inadimplência_Prov
+13666,BI,Inadimplência_Prov
+13672,BJ,Inadimplência_Prov
+13678,BK,Inadimplência_Prov
 21083,B,Inadimplência Porte
 27703,C,Inadimplência Porte
 27704,D,Inadimplência Porte
